@@ -6,9 +6,10 @@ A plugin to display upcoming meetup.com events in the sidebar of an [Octopress](
 - Download meetup.html and place it in the __source/\_includes/custom__ folder
 
 ### Step 2
-In __\_config.yml__ add the following entry:
+In __\_config.yml__ add the following entries:
 
     meetup_group_id: \<your meetup.com group_id\>  
+    meetup_event_limit: \<the max number of events to show/>
 
 ### Step 3
 In __\_config.yml__ add __meetup.html__ to the default_asides list

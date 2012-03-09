@@ -26,7 +26,7 @@
     var head    = document.getElementsByTagName('head')[0];
     var script  = document.createElement('script');
     script.type = 'text/javascript';
-    script.src  = 'https://api.meetup.com/2/events?key=663426684b416b314876447a105b396e&sign=true&page=1&group_id={{site.meetup_group_id}}&callback=processMeetupEvents';
+    script.src  = 'https://api.meetup.com/2/events?key=663426684b416b314876447a105b396e&sign=true&page={{site.meetup_event_limit}}&group_id={{site.meetup_group_id}}&callback=processMeetupEvents';
 
     head.appendChild(script);
   });
